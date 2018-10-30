@@ -13,42 +13,26 @@ This is a Postgresql data base containing three tables describing a fictitious
 news website. There are three tables: log, articles, and authors.
 
 ### Columns in the log table:
-1. path
-..* url path after the host name to the specified news article
-2. ip
-..* ip address to the website
-3. method
-..* the HTTP method used in this request
-4. status
-..* the HTTP status for this request
-5. time
-..* the time the request was made
-6. id 
-..* the unique id of this request
+1. path - url path after the host name to the specified news article
+2. ip - ip address to the website
+3. method - the HTTP method used in this request
+4. status - the HTTP status for this request
+5. time - the time the request was made
+6. id - the unique id of this request
 
 ### Columns in the articles table:
-1. author
-..* the id of the author, which is the same as the id column in the authors table
-2. title
-..* the title of the article
-3. slug 
-..* the path extension of the article's url, which matches up with the path extension in the path column of the url table
-4. lead
-..* the introduction to the article
-5. body 
-..* the main body of the article
-6. time
-..* the time the article was submitted by the author
-7. id
-..* the unique id of the article 
+1. author - the id of the author, which is the same as the id column in the authors table
+2. title - the title of the article
+3. slug - the path extension of the article's url, which matches up with the path extension in the path column of the url table
+4. lead - the introduction to the article
+5. body - the main body of the article
+6. time - the time the article was submitted by the author
+7. id - the unique id of the article 
 
 ### Columns in the authors table:
-1. name
-..* the name of the author 
-2. bio
-..* a short biography of the author
-3. id
-..* the author's unique id
+1. name - the name of the author 
+2. bio - a short biography of the author
+3. id - the author's unique id
 
 
 ## Necessary requirements to run this program:

@@ -93,3 +93,5 @@ To create the necessary views, do the following.
 
 
 Once the views have been created, make sure you are in the correct directory with the python and sql files. You can run the python script by running the command 'python report_tool.py'. This will output the answers to the three questions stated above.
+
+### Note: SQL file not included in git repo because it is too large
